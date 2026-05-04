@@ -31,7 +31,7 @@ jobs:
         with:
           script: |
             const fs = require("fs");
-            const username = "anshika292005";
+            const username = "AdarshVashith";
 
             const { data: profile } = await github.rest.users.getByUsername({
               username,
